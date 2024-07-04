@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import Navbar from './components/Navar';
 const inter = Inter({ subsets: ['latin'] });
-import Providers from './Providers';
+import Providers from './providers';
 export const metadata = {
 	title: 'Next.js Tutorial',
 	description: 'Build awesome websites with Next.js and Tailwind CSS'
